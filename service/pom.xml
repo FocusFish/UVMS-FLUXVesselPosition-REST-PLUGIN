@@ -7,7 +7,7 @@
     <packaging>ejb</packaging>
 
     <parent>
-        <groupId>fish.focus.uvms.plugins</groupId>
+        <groupId>fish.focus.uvms.plugins.flux-vesselposition-rest</groupId>
         <artifactId>flux-vesselposition-rest</artifactId>
         <version>1.8-SNAPSHOT</version>
     </parent>

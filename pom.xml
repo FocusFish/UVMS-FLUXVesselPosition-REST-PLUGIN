@@ -9,7 +9,7 @@
         <version>3.16</version>
     </parent>
 
-    <groupId>fish.focus.uvms.plugins</groupId>
+    <groupId>fish.focus.uvms.plugins.flux-vesselposition-rest</groupId>
     <artifactId>flux-vesselposition-rest</artifactId>
     <version>1.8-SNAPSHOT</version>
     <packaging>pom</packaging>
