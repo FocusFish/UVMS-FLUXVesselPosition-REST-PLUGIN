@@ -6,17 +6,17 @@
         <groupId>fish.focus.uvms.maven</groupId>
         <artifactId>uvms-pom</artifactId>
         <relativePath />
-        <version>3.8</version>
+        <version>3.16</version>
     </parent>
 
-    <groupId>eu.europa.ec.fisheries.uvms.plugins</groupId>
+    <groupId>fish.focus.uvms.plugins.rest.movement</groupId>
     <artifactId>flux-vesselposition-rest</artifactId>
-    <version>1.8-SNAPSHOT</version>
+    <version>1.8</version>
     <packaging>pom</packaging>
     <description>Posts reports to endpoints</description>
     
     <properties>
-        <exchange.model.version>5.3.22-UVMS</exchange.model.version>
+        <exchange.model.version>5.3.23</exchange.model.version>
     </properties>
     
     <dependencies>
@@ -35,14 +35,14 @@
             <groupId>fish.focus.uvms.maven</groupId>
             <artifactId>uvms-pom-java11-deps</artifactId>
             <type>pom</type>
-            <version>3.8</version>
+            <version>3.16</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
     
     <scm>
-        <connection>scm:git:https://github.com/UnionVMS/UVMS-FLUXVesselPosition-REST-PLUGIN.git</connection>
-        <tag>1.0-SNAPSHOT</tag>
+        <connection>scm:git:https://github.com/FocusFish/UVMS-FLUXVesselPosition-REST-PLUGIN.git</connection>
+        <tag>HEAD</tag>
     </scm>
 
     <modules>

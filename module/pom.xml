@@ -7,9 +7,9 @@
     <packaging>ear</packaging>
 
     <parent>
-        <groupId>eu.europa.ec.fisheries.uvms.plugins</groupId>
+        <groupId>fish.focus.uvms.plugins.rest.movement</groupId>
         <artifactId>flux-vesselposition-rest</artifactId>
-        <version>1.8-SNAPSHOT</version>
+        <version>1.8</version>
     </parent>
 
     <build>
