@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public abstract class PluginDataHolder {
 
-    public static final String PLUGIN_PROPERTIES = "flux-vesselposition-rest.properties";
+    public static final String PLUGIN_PROPERTIES = "plugin.properties";
     public static final String PROPERTIES = "settings.properties";
     public static final String CAPABILITIES = "capabilities.properties";
 
