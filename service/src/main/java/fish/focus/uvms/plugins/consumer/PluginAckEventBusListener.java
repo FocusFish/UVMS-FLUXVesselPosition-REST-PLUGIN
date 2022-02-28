@@ -17,9 +17,9 @@ import fish.focus.uvms.plugins.StartupBean;
 import fish.focus.uvms.plugins.service.PluginService;
 
 @MessageDriven(mappedName="jms/topic/EventBus", activationConfig =  {
-        @ActivationConfigProperty(propertyName = "subscriptionName",          propertyValue = "eu.europa.ec.fisheries.uvms.plugins.rest.movementPLUGIN_RESPONSE"),
-        @ActivationConfigProperty(propertyName = "clientId",                  propertyValue = "eu.europa.ec.fisheries.uvms.plugins.rest.movementPLUGIN_RESPONSE"),
-        @ActivationConfigProperty(propertyName = "messageSelector",           propertyValue = "ServiceName='eu.europa.ec.fisheries.uvms.plugins.rest.movementPLUGIN_RESPONSE'"),
+        @ActivationConfigProperty(propertyName = "subscriptionName",          propertyValue = "fish.focus.uvms.plugins.rest.movementPLUGIN_RESPONSE"),
+        @ActivationConfigProperty(propertyName = "clientId",                  propertyValue = "fish.focus.uvms.plugins.rest.movementPLUGIN_RESPONSE"),
+        @ActivationConfigProperty(propertyName = "messageSelector",           propertyValue = "ServiceName='fish.focus.uvms.plugins.rest.movementPLUGIN_RESPONSE'"),
         @ActivationConfigProperty(propertyName = "subscriptionDurability",    propertyValue = "Durable"),
         @ActivationConfigProperty(propertyName = "destinationLookup",         propertyValue = "jms/topic/EventBus"),
         @ActivationConfigProperty(propertyName = "destinationType",           propertyValue = "javax.jms.Topic")
