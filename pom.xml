@@ -6,17 +6,17 @@
         <groupId>fish.focus.uvms.maven</groupId>
         <artifactId>uvms-pom</artifactId>
         <relativePath />
-        <version>3.16</version>
+        <version>3.19</version>
     </parent>
 
     <groupId>fish.focus.uvms.plugins.rest.movement</groupId>
     <artifactId>flux-vesselposition-rest</artifactId>
-    <version>1.9</version>
+    <version>1.10</version>
     <packaging>pom</packaging>
     <description>Posts reports to endpoints</description>
     
     <properties>
-        <exchange.model.version>5.3.23</exchange.model.version>
+        <exchange.model.version>5.3.27</exchange.model.version>
     </properties>
     
     <dependencies>
@@ -35,7 +35,7 @@
             <groupId>fish.focus.uvms.maven</groupId>
             <artifactId>uvms-pom-java11-deps</artifactId>
             <type>pom</type>
-            <version>3.16</version>
+            <version>3.19</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
