@@ -9,7 +9,7 @@
     <parent>
         <groupId>fish.focus.uvms.plugins.rest.movement</groupId>
         <artifactId>flux-vesselposition-rest</artifactId>
-        <version>1.11-SNAPSHOT</version>
+        <version>1.12.0</version>
     </parent>
 
     <properties>
